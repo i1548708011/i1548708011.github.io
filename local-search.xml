@@ -4,13 +4,25 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/2022/10/31/test/"/>
-    <url>/2022/10/31/test/</url>
+    <title>Markdown的基本语法</title>
+    <link href="/2022/11/01/Markdown%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <url>/2022/11/01/Markdown%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>这是ZPHXD空间内的第一篇BLOG，所以来介绍Markdown的基本语法，参考<a href="https://zhuanlan.zhihu.com/p/359357509">知乎</a>.</p><h2 id="MarkDown"><a href="#MarkDown" class="headerlink" title="MarkDown"></a>MarkDown</h2><h3 id="一、Markdown简介"><a href="#一、Markdown简介" class="headerlink" title="一、Markdown简介"></a>一、Markdown简介</h3><p>Markdown是一种轻量级标记语言，能将文本换成有效的XHTML(或者HTML)文档，它的目标是实现易读易写，成为一种适用于网络且简洁轻便的书写语言。</p><h3 id="二、Markdown标题"><a href="#二、Markdown标题" class="headerlink" title="二、Markdown标题"></a>二、Markdown标题</h3><p>Markdown支持两种标题的语法，类Setext和类Atx形式。<br>类Setext形式是用底线的形式，用 <code>=</code> (最高价标题) 和 <code>-</code> (第二阶标题)，例如：</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc"><span class="hljs-section">This is an H1 </span><br><span class="hljs-section">=============</span><br><br><span class="hljs-section">This is an H2</span><br><span class="hljs-section">-------------</span><br><br></code></pre></td></tr></table></figure><p>任何数量的 <code>=</code> 和 <code>-</code> 都可以有效果。<br>类Atx形式则是在行首插入1到6个 <code>#</code> ,对应标题1到6级标题，例如：</p><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs clean"><br># 一级标题<br>## 二级标题<br>### 三级标题<br>#### 四级标题<br>##### 五级标题<br>###### 六级标题<br><br></code></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
+      
+      <category>Markdown</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Markdown</tag>
+      
+    </tags>
     
   </entry>
   
