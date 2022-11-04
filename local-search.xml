@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Markdown的进阶用法</title>
+    <link href="/2022/11/04/Markdown%E7%9A%84%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95/"/>
+    <url>/2022/11/04/Markdown%E7%9A%84%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>本文介绍Markdown的进阶用法</p><h2 id="如何改变文本的样式"><a href="#如何改变文本的样式" class="headerlink" title="如何改变文本的样式"></a>如何改变文本的样式</h2><p><em>强调文本</em> <em>强调文本</em></p><p><strong>加粗文本</strong> <strong>加粗文本</strong></p><p>&#x3D;&#x3D;标记文本&#x3D;&#x3D;</p><p><del>删除文本</del></p><blockquote><p>引用文本</p></blockquote><p>H<del>2</del>O is是液体。</p><p>2^10^ 运算结果是 1024.</p><h2 id="插入链接与图片"><a href="#插入链接与图片" class="headerlink" title="插入链接与图片"></a>插入链接与图片</h2><p>链接: <a href="http://120.25.84.254/">link</a>.</p><p>图片: <img src="https://img1.baidu.com/it/u=3178057158,4110048229&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=538" alt="Alt"></p><h2 id="生成一个适合你的列表"><a href="#生成一个适合你的列表" class="headerlink" title="生成一个适合你的列表"></a>生成一个适合你的列表</h2><ul><li>项目<ul><li>项目<ul><li>项目</li></ul></li></ul></li></ul><ol><li>项目1</li><li>项目2</li><li>项目3</li></ol><ul><li><input disabled="" type="checkbox"> 计划任务</li><li><input checked="" disabled="" type="checkbox"> 完成任务</li></ul><h2 id="创建一个表格"><a href="#创建一个表格" class="headerlink" title="创建一个表格"></a>创建一个表格</h2><p>一个简单的表格是这么创建的：</p><table><thead><tr><th>项目</th><th>Value</th></tr></thead><tbody><tr><td>电脑</td><td>$1600</td></tr><tr><td>手机</td><td>$12</td></tr><tr><td>导管</td><td>$1</td></tr></tbody></table><h3 id="设定内容居中、居左、居右"><a href="#设定内容居中、居左、居右" class="headerlink" title="设定内容居中、居左、居右"></a>设定内容居中、居左、居右</h3><p>使用<code>:---------:</code>居中<br>使用<code>:----------</code>居左<br>使用<code>----------:</code>居右</p><table><thead><tr><th align="center">第一列</th><th align="right">第二列</th><th align="left">第三列</th></tr></thead><tbody><tr><td align="center">第一列文本居中</td><td align="right">第二列文本居右</td><td align="left">第三列文本居左</td></tr></tbody></table><h3 id="SmartyPants"><a href="#SmartyPants" class="headerlink" title="SmartyPants"></a>SmartyPants</h3><p>SmartyPants将ASCII标点字符转换为“智能”印刷标点HTML实体。例如：</p><table><thead><tr><th>TYPE</th><th>ASCII</th><th>HTML</th></tr></thead><tbody><tr><td>Single backticks</td><td><code>&#39;Isn&#39;t this fun?&#39;</code></td><td>‘Isn’t this fun?’</td></tr><tr><td>Quotes</td><td><code>&quot;Isn&#39;t this fun?&quot;</code></td><td>“Isn’t this fun?”</td></tr><tr><td>Dashes</td><td><code>-- is en-dash, --- is em-dash</code></td><td>– is en-dash, — is em-dash</td></tr></tbody></table><h2 id="创建一个自定义列表"><a href="#创建一个自定义列表" class="headerlink" title="创建一个自定义列表"></a>创建一个自定义列表</h2><dl><dt>Markdown</dt><dd>Text-to-HTML conversion tool</dd></dl><dl><dt>Authors<br>:  John</dt><dd>Luke</dd></dl><h2 id="如何创建一个注脚"><a href="#如何创建一个注脚" class="headerlink" title="如何创建一个注脚"></a>如何创建一个注脚</h2><p>一个具有注脚的文本。<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="注脚的解释">[1]</span></a></sup></p><h2 id="注释也是必不可少的"><a href="#注释也是必不可少的" class="headerlink" title="注释也是必不可少的"></a>注释也是必不可少的</h2><p>Markdown将文本转换为 HTML。</p><p>*[HTML]:   超文本标记语言</p><h2 id="KaTeX数学公式"><a href="#KaTeX数学公式" class="headerlink" title="KaTeX数学公式"></a>KaTeX数学公式</h2><p>您可以使用渲染LaTeX数学表达式 <a href="https://khan.github.io/KaTeX/">KaTeX</a>:</p><p>Gamma公式展示 $\Gamma(n) &#x3D; (n-1)!\quad\forall<br>n\in\mathbb N$ 是通过欧拉积分</p><p>$$<br>\Gamma(z) &#x3D; \int_0^\infty t^{z-1}e^{-t}dt,.<br>$$</p><blockquote><p>你可以找到更多关于的信息 <strong>LaTeX</strong> 数学表达式<a href="https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here</a>.</p></blockquote><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>注脚的解释<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>Markdown</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Markdown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Markdown的基本语法</title>
     <link href="/2022/11/01/Markdown%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
     <url>/2022/11/01/Markdown%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
